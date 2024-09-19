@@ -45,7 +45,7 @@ namespace ParcialNo._1
             }
 
             Form3 form3 = new Form3(tbNombre.Text, Convert.ToString(Math.Abs(fechaNacimiento.Year - DateTime.Today.Year)),  cbSexo.SelectedItem.ToString(), signo, prediccion, resultadoAleatorio);
-            form3.Show();
+            form3.Show(); 
             this.Hide();
         }
 
